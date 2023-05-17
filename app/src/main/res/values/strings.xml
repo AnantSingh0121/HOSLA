@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WOMEN SAFETY APPLICATION</string>
+    <string name="call_icon">EMERGENCY CALL ICON</string>
+    <string name="location_icon">LOCATION ICON</string>
+    <string name="video_icon">VIDEO ICON</string>
+    <string name="contact_icon">CONTACT ICON</string>
+    <string name="feedback_icon">FEEDBACK ICON</string>
+    <string name="aboutus_icon">ABOUT ICON</string>
+    <string name="map">MAP</string>
+    <string name="loc">Get Location</string>
+</resources>

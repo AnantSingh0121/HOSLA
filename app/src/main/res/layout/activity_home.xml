@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFF8DC"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="155dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background ="#FF6200EE"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/homeIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/welcome" />
+
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_weight="4"
+                android:text="Live Without Fear"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFF8DC"
+                android:textSize="25dp" />
+
+            <!--            <ImageButton-->
+            <!--                android:id="@+id/moreBtn"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:tint="#F6F5F5"-->
+            <!--                android:scaleType="fitCenter"-->
+            <!--                android:backgroundTint="@color/black"-->
+            <!--                app:srcCompat="@drawable/ic_more" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/callBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+
+                    android:background="@drawable/icon_radius"
+                    android:contentDescription="@string/call_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_call" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:text="Emergency Call"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:paddingLeft="44dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/locationBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_radius"
+                    android:contentDescription="@string/location_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_location"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Live Location"
+                    android:layout_weight="5"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="40dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/videoBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_radius"
+                    android:contentDescription="@string/video_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_video"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:text="Self Defence "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:paddingLeft="50dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/contactBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp" android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_radius"
+                    android:contentDescription="@string/contact_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_contacts"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Add Contacts"
+                    android:layout_weight="5"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/aboutusBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_radius"
+                    android:contentDescription="@string/aboutus_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_person"
+                    tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:paddingStart="70dp"
+                    android:text="About Us"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/feedbackBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_radius"
+                    android:contentDescription="@string/feedback_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_feedback" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Send Feedback"
+                    android:layout_weight="4"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginRight="30dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

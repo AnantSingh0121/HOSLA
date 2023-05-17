@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "543694331426",
+    "project_id": "sos-major-project",
+    "storage_bucket": "sos-major-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543694331426:android:123d2a126705e3071db47b",
+        "android_client_info": {
+          "package_name": "com.raghav.sos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543694331426-6sp2hch7g1rhmhl6okccl5pheg0ni2b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGlSTAEoLtx04EqNVbEqGP1VK8tmPb9Zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543694331426-6sp2hch7g1rhmhl6okccl5pheg0ni2b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SOS-master-main/app/src/main/res/drawable/bg1.xml" value="0.1" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/drawable/ic_logout.xml" value="0.1" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/activity2_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/activity_aboutus.xml" value="0.264" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/activity_feedback.xml" value="0.12360688956433637" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/activity_home.xml" value="0.1848381601362862" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/activity_live_location_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/activity_news.xml" value="0.24010416666666667" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/activity_register.xml" value="0.12360688956433637" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/each_news_layout.xml" value="0.11302083333333333" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/emergency_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/hey.xml" value="0.4" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/item_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/logout.xml" value="0.1" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/layout/progressbar_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/SOS-master-main/app/src/main/res/menu/menu.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
